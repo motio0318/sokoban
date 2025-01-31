@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -215,6 +216,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dfcf542a17cac648bcfb0295e3035ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageFile: {fileID: 4900000, guid: c1b2e5889bf16af499ffe404f4fec053, type: 3}
+  tileSize: 0.64
+  groundSprite: {fileID: 21300000, guid: f612a4edf1c3c334e8e8efd17613bf37, type: 3}
+  targetSprite: {fileID: 21300000, guid: 176baa99901712c41961b8c3913a4746, type: 3}
+  playerSprite: {fileID: 21300000, guid: 7dc4c9271db57364cad0c3ed4bcb7996, type: 3}
+  blockSprite: {fileID: 21300000, guid: 5633ce92cfc2a8747b70fc9a686aeb18, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
