@@ -153,6 +153,7 @@ public class Game : MonoBehaviour
                     //プレイヤーを連想配列に追加
                     gameObjectPosTable.Add(player, new Vector2Int(x, y));
                 }
+
                 //ブロックの場合
                 else if(val == TileType.BLOCK)
                 {
